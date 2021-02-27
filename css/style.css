@@ -1,0 +1,94 @@
+body{ 
+    background-color: #8da799;
+    color: white;
+    font-family: "Roboto", serif;
+    line-height: 22px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Up {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+.Up a {
+    color: white;
+}
+
+.Up li {
+    list-style-type: none;
+}
+
+.malina {
+    background-size: cover;
+    width: 557px;
+    height: 230px;
+    border-radius: 18px;
+    background-image: url("./../img/malina.jpg");
+    background-repeat: no-repeat;
+}
+
+.chocolate {
+    background-size: cover;
+    width: 557px;
+    height: 230px;
+    border-radius: 18px;
+    background-image: url("./../img/chocolandnyi.jpg");
+    background-repeat: no-repeat;
+}
+
+.Glais {
+    background-size: cover;
+    width: 1057px;
+    height: 330px;
+    border-radius: 18px;
+    background-image: url("./../img/wafer\ fon.jpg");
+    background-repeat: no-repeat;
+}
+
+.ten_ways {
+    background-size: cover;
+    width: 557px;
+    height: 230px;
+    border-radius: 18px;
+    background-image: url("./../img/strawberry\ fon.jpg");
+    background-repeat: no-repeat;
+}
+
+.mail {
+    background-image: url("./../img/mail\ fon.jpg");
+    width: 557px;
+    height: 230px;
+    background-size: cover;
+    border-radius: 18px;
+    background-repeat: no-repeat;
+}
+
+.price-list {
+    margin: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.price-list__item {
+    width: 267px;
+    margin: 14px;
+}
+
+.hit1 {
+    position: relative;
+    top: 57px;
+    left: 12px;
+}
+
+.price {
+    line-height: 45px;
+    font-size: 45px;
+    font-weight: 900;
+}
