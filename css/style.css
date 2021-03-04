@@ -10,6 +10,11 @@ body{
     margin: 0 auto;
 }
 
+.thebiggest_text {
+   font-size: 60px;
+
+}
+
 .Up {
     font-size: 16px;
     line-height: 18px;
@@ -24,6 +29,14 @@ body{
     list-style-type: none;
 }
 
+.m_ch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 27px;
+}
+
 .malina {
     background-size: cover;
     width: 557px;
@@ -31,6 +44,8 @@ body{
     border-radius: 18px;
     background-image: url("./../img/malina.jpg");
     background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-top: 17px;
 }
 
 .chocolate {
@@ -40,15 +55,28 @@ body{
     border-radius: 18px;
     background-image: url("./../img/chocolandnyi.jpg");
     background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-top: 17px;
+}
+
+.more {
+    font-size: 35px;
 }
 
 .Glais {
     background-size: cover;
-    width: 1057px;
+    width: 1200px;
     height: 330px;
     border-radius: 18px;
     background-image: url("./../img/wafer\ fon.jpg");
     background-repeat: no-repeat;
+}
+
+.tw_m {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .ten_ways {
@@ -67,6 +95,12 @@ body{
     background-size: cover;
     border-radius: 18px;
     background-repeat: no-repeat;
+}
+
+.words {
+    color: #848483;
+    padding-left: 10px;
+    padding-top: 15px;
 }
 
 .price-list {
@@ -89,6 +123,26 @@ body{
 
 .price {
     line-height: 45px;
-    font-size: 45px;
-    font-weight: 900;
+    font-size: 50px;
+    font-weight: 900;    
+}
+
+.glais_words {
+    color: black;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.gl {
+    font-size: 13px;
+}
+
+.blog {
+    color: #323232;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.fruit_words {
+    font-size: 24px;
 }
