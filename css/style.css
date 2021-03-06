@@ -1,0 +1,148 @@
+body{ 
+    background-color: #8da799;
+    color: white;
+    font-family: "Roboto", serif;
+    line-height: 22px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.thebiggest_text {
+   font-size: 60px;
+
+}
+
+.Up {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+.Up a {
+    color: white;
+}
+
+.Up li {
+    list-style-type: none;
+}
+
+.m_ch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 27px;
+}
+
+.malina {
+    background-size: cover;
+    width: 557px;
+    height: 230px;
+    border-radius: 18px;
+    background-image: url("./../img/malina.jpg");
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-top: 17px;
+}
+
+.chocolate {
+    background-size: cover;
+    width: 557px;
+    height: 230px;
+    border-radius: 18px;
+    background-image: url("./../img/chocolandnyi.jpg");
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-top: 17px;
+}
+
+.more {
+    font-size: 35px;
+}
+
+.Glais {
+    background-size: cover;
+    width: 1200px;
+    height: 330px;
+    border-radius: 18px;
+    background-image: url("./../img/wafer\ fon.jpg");
+    background-repeat: no-repeat;
+}
+
+.tw_m {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ten_ways {
+    background-size: cover;
+    width: 557px;
+    height: 230px;
+    border-radius: 18px;
+    background-image: url("./../img/strawberry\ fon.jpg");
+    background-repeat: no-repeat;
+}
+
+.mail {
+    background-image: url("./../img/mail\ fon.jpg");
+    width: 557px;
+    height: 230px;
+    background-size: cover;
+    border-radius: 18px;
+    background-repeat: no-repeat;
+}
+
+.words {
+    color: #848483;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.price-list {
+    margin: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.price-list__item {
+    width: 267px;
+    margin: 14px;
+}
+
+.hit1 {
+    position: relative;
+    top: 57px;
+    left: 12px;
+}
+
+.price {
+    line-height: 45px;
+    font-size: 50px;
+    font-weight: 900;    
+}
+
+.glais_words {
+    color: black;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.gl {
+    font-size: 13px;
+}
+
+.blog {
+    color: #323232;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.fruit_words {
+    font-size: 24px;
+}
