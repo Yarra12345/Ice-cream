@@ -5,9 +5,14 @@ body{
     line-height: 22px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 auto;
 }
 
 .thebiggest_text {
@@ -19,6 +24,8 @@ body{
     font-size: 16px;
     line-height: 18px;
     font-weight: 700;
+    display: flex;
+    
 }
 
 .Up a {
@@ -27,6 +34,65 @@ body{
 
 .Up li {
     list-style-type: none;
+    margin-left: 30px;
+}
+
+.up_setka {
+    display: flex;
+    flex-direction: row;
+}
+
+.search {
+    border-radius: 50% ;
+    border: none;
+    background-color: #a0b5a9;
+    background-image: url("./../img/lypa.svg");
+    height: 32px;
+    width: 32px;
+    background-size: cover;
+}
+
+.input {
+    border-radius: 50% ;
+    border: none;
+    background-color: #a0b5a9;
+    height: 32px;
+    width: 32px;
+    background-size: cover;
+}
+
+.cart {
+    border-radius: 50% ;
+    border: none;
+    background-color: #a0b5a9;
+    height: 32px;
+    width: 32px;
+    background-size: cover;
+}
+
+.red_oval {
+    border-radius: 30%;
+    background-color: red;
+    height: 70px;
+    width: 215px;
+}
+
+.red_oval_second {
+    border-radius: 32%;
+    background-color: red;
+    height: 44px;
+    width: 165px;
+    font-size: 18px;
+}
+
+.davaite_oba {
+    font-size: 32px;
+    color: white;
+}
+
+.creams {
+    position: relative;
+    margin-left: 250px;
 }
 
 .m_ch {
@@ -89,18 +155,24 @@ body{
 }
 
 .mail {
-    background-image: url("./../img/mail\ fon.jpg");
+    background-image: url("./../img/mail_fon.jpg");
     width: 557px;
-    height: 230px;
+    height: 210px;
     background-size: cover;
     border-radius: 18px;
     background-repeat: no-repeat;
+    padding: 9px;
 }
 
 .words {
     color: #848483;
-    padding-left: 10px;
-    padding-top: 15px;
+    display: block;
+    width: 518px;
+    height: 140px;
+    border-radius: 23px;
+    padding: 34px 20px 37px;
+    margin: 0;
+    background-color: #f8f7f4;
 }
 
 .price-list {
@@ -113,6 +185,12 @@ body{
 .price-list__item {
     width: 267px;
     margin: 14px;
+    position: relative;
+
+}
+
+.kg {
+    font-size: 32px;
 }
 
 .hit1 {
@@ -124,13 +202,23 @@ body{
 .price {
     line-height: 45px;
     font-size: 50px;
-    font-weight: 900;    
+    font-weight: 900; 
+    position: absolute; 
+    bottom: 40px; 
+    left: 0px; 
+    display: inline-block;
+    padding: 0;
 }
 
 .glais_words {
     color: black;
     padding-left: 20px;
     padding-top: 15px;
+}
+
+.glais_words_one {
+    display: flex;
+    flex-direction: row;
 }
 
 .gl {
@@ -145,4 +233,51 @@ body{
 
 .fruit_words {
     font-size: 24px;
+    width: 300px;
+    text-decoration: underline;
+}
+
+.down_setka {
+  
+}
+
+.down_academy {
+    padding-left: 670px;
+    font-size: 12px;
+    margin: 0%;
+}
+
+
+.down {
+    display: contents;
+    flex-direction: column;
+    left: 500px;
+}
+
+.htmlaca {
+    margin-left: 87%;
+}
+
+.wrds {
+    display: flex;
+    flex-direction: row;
+    padding-left: 800px;
+    margin: 0%;
+    padding-top: 20px;
+}
+
+.badges {
+    border-radius: 50% ;
+    border: none;
+    background-color: #e6ebe9;
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+}
+
+.map {
+    background-image: url("./../img/map.jpg");
+    max-height: 431px;
+    max-width: 1200px;
+    margin-top: 40px;
 }
