@@ -16,8 +16,14 @@ a {
 }
 
 .thebiggest_text {
-   font-size: 60px;
-
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    max-width: 675px;
+    position: absolute;
+    left: calc(50% - 337px);
+    top: 330px;
+    z-index: 3;
 }
 
 .Up {
@@ -40,38 +46,65 @@ a {
 .up_setka {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .search {
     border-radius: 50% ;
     border: none;
     background-color: #a0b5a9;
-    background-image: url("./../img/lypa.svg");
     height: 32px;
     width: 32px;
     background-size: cover;
 }
 
 .input {
-    border-radius: 50% ;
+    border-radius: 16px 16px;
     border: none;
     background-color: #a0b5a9;
     height: 32px;
-    width: 32px;
+    width: 92px;
     background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.input svg {
+    width: 20px;
+    height: 20px;
+}
+
+.input label {
+    color: white;
+    line-height: 16px;
+    font-weight: 500;
+    vertical-align: top;
+    padding-left: 4px;
 }
 
 .cart {
-    border-radius: 50% ;
+    border-radius: 16px 16px ;
     border: none;
     background-color: #a0b5a9;
     height: 32px;
-    width: 32px;
+    width: 92px;
     background-size: cover;
 }
 
+.cart label {
+    color: white;
+}
+
+.cart svg {
+    width: 20px;
+    height: 20px;
+}
+
 .red_oval {
-    border-radius: 30%;
+    border-radius: 35px 35px;
     background-color: red;
     height: 70px;
     width: 215px;
@@ -90,9 +123,17 @@ a {
     color: white;
 }
 
-.creams {
+.creams img:first-child {
+    position: absolute;
+    left: 27%;
+    z-index: 1;
+}
+
+.creams2 {
     position: relative;
-    margin-left: 250px;
+    left: 50%;
+    z-index: 0;
+    top: 60px;
 }
 
 .m_ch {
@@ -258,12 +299,26 @@ a {
     margin-left: 87%;
 }
 
-.wrds {
+.mode {
+    position: absolute;
+    right: 160px;
+    top: 50px;
+    max-width: 170px;
+}
+
+.mode p:nth-child(2) {
+    font-weight: 600 ;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.mode p {
+    margin: 5px 0 ;
+}
+
+.nav_left {
     display: flex;
     flex-direction: row;
-    padding-left: 800px;
-    margin: 0%;
-    padding-top: 20px;
 }
 
 .badges {
@@ -280,4 +335,10 @@ a {
     max-height: 431px;
     max-width: 1200px;
     margin-top: 40px;
+}
+
+.svg {
+    display: flex;
+    flex-direction: row;
+    max-height: 50px;
 }
