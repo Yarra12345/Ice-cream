@@ -1,5 +1,5 @@
 body{ 
-    background-color: #8da799;
+    background-color: #849d8f;
     color: white;
     font-family: "Roboto", serif;
     line-height: 22px;
@@ -92,10 +92,17 @@ a {
     height: 32px;
     width: 92px;
     background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    margin-left: -3px;
 }
 
 .cart label {
     color: white;
+    padding-left: 4px;
 }
 
 .cart svg {
