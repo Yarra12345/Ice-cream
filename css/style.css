@@ -302,7 +302,12 @@ a {
 }
 
 .down_setka {
-    height: 104px;
+    min-height: 104px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
 }
 
 .down_academy {
@@ -351,7 +356,7 @@ a {
 
 .badges {
     border-radius: 50% ;
-    border: none;
+    border: 3px solid #c2cec7;
     background-color: #e6ebe9;
     height: 40px;
     width: 40px;
