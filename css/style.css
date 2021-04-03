@@ -1,5 +1,5 @@
 body{ 
-    background-color: #8da799;
+    background-color: #849d8f;
     color: white;
     font-family: "Roboto", serif;
     line-height: 22px;
@@ -16,8 +16,14 @@ a {
 }
 
 .thebiggest_text {
-   font-size: 60px;
-
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    max-width: 675px;
+    position: absolute;
+    left: calc(50% - 319px);
+    top: 330px;
+    z-index: 3;
 }
 
 .Up {
@@ -40,46 +46,84 @@ a {
 .up_setka {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .search {
     border-radius: 50% ;
     border: none;
     background-color: #a0b5a9;
-    background-image: url("./../img/lypa.svg");
     height: 32px;
     width: 32px;
     background-size: cover;
 }
 
 .input {
-    border-radius: 50% ;
+    border-radius: 16px 16px;
     border: none;
     background-color: #a0b5a9;
     height: 32px;
-    width: 32px;
+    width: 92px;
     background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.input svg {
+    width: 20px;
+    height: 20px;
+}
+
+.input label {
+    color: white;
+    line-height: 16px;
+    font-weight: 500;
+    vertical-align: top;
+    padding-left: 4px;
 }
 
 .cart {
-    border-radius: 50% ;
+    border-radius: 16px 16px ;
     border: none;
     background-color: #a0b5a9;
     height: 32px;
-    width: 32px;
+    width: 92px;
     background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    margin-left: -3px;
+}
+
+.cart label {
+    color: white;
+    padding-left: 4px;
+}
+
+.cart svg {
+    width: 20px;
+    height: 20px;
 }
 
 .red_oval {
-    border-radius: 30%;
-    background-color: red;
+    border-radius: 35px 35px;
+    background-color: #ed603f;
     height: 70px;
     width: 215px;
+    z-index: 4;
+    position: absolute;
+    bottom: 150px;
+    right: 630px;
 }
 
 .red_oval_second {
-    border-radius: 32%;
-    background-color: red;
+    border-radius: 35px 35px;
+    background-color: #ed603f;
     height: 44px;
     width: 165px;
     font-size: 18px;
@@ -88,11 +132,26 @@ a {
 .davaite_oba {
     font-size: 32px;
     color: white;
+    z-index: 4;
+    left: 30px;
 }
 
-.creams {
+.want {
+    color: white;
+}
+
+.creams img:first-child {
+    position: absolute;
+    left: 29%;
+    top: 58px;
+    z-index: 1;
+}
+
+.creams2 {
     position: relative;
-    margin-left: 250px;
+    left: 50%;
+    z-index: 0;
+    top: 30px;
 }
 
 .m_ch {
@@ -114,6 +173,10 @@ a {
     padding-top: 17px;
 }
 
+.textt {
+    
+}
+
 .chocolate {
     background-size: cover;
     width: 557px;
@@ -123,6 +186,7 @@ a {
     background-repeat: no-repeat;
     padding-left: 20px;
     padding-top: 17px;
+    z-index: 5;
 }
 
 .more {
@@ -238,32 +302,51 @@ a {
 }
 
 .down_setka {
-  
+    height: 104px;
 }
 
 .down_academy {
-    padding-left: 670px;
+    position: absolute;
     font-size: 12px;
+    left: 595px;
     margin: 0%;
+    width: 190px;
+    bottom: 7px;
 }
 
+.htmlphoto {
+    position: relative;
+    left: 68%;
+    bottom: -15px;
+}
 
 .down {
-    display: contents;
-    flex-direction: column;
-    left: 500px;
-}
-
-.htmlaca {
-    margin-left: 87%;
-}
-
-.wrds {
+    position: absolute;
     display: flex;
     flex-direction: row;
-    padding-left: 800px;
-    margin: 0%;
-    padding-top: 20px;
+    left: 36%;
+}
+
+.mode {
+    position: absolute;
+    right: 160px;
+    top: 50px;
+    max-width: 170px;
+}
+
+.mode p:nth-child(2) {
+    font-weight: 600 ;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.mode p {
+    margin: 5px 0 ;
+}
+
+.nav_left {
+    display: flex;
+    flex-direction: row;
 }
 
 .badges {
@@ -273,6 +356,8 @@ a {
     height: 40px;
     width: 40px;
     background-size: cover;
+    position: relative;
+    top: 30px;
 }
 
 .map {
@@ -280,4 +365,10 @@ a {
     max-height: 431px;
     max-width: 1200px;
     margin-top: 40px;
+}
+
+.svg {
+    display: flex;
+    flex-direction: row;
+    max-height: 50px;
 }
