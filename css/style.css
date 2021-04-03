@@ -303,6 +303,8 @@ a {
 
 .down_setka {
     min-height: 104px;
+    display: flex;
+    flex-direction: row;
 }
 
 .social {
@@ -311,12 +313,7 @@ a {
 }
 
 .down_academy {
-    position: absolute;
-    font-size: 12px;
-    left: 595px;
-    margin: 0%;
-    width: 190px;
-    bottom: 7px;
+
 }
 
 .htmlphoto {
@@ -326,10 +323,19 @@ a {
 }
 
 .down {
-    position: absolute;
     display: flex;
     flex-direction: row;
-    left: 36%;
+}
+
+.down li {
+    list-style-type: none;
+}
+
+.down a {
+    color: white;
+    font-size: 13px;
+    line-height: 18px;
+    border-bottom: 1px solid #c2cec7;
 }
 
 .mode {
@@ -363,6 +369,7 @@ a {
     background-size: cover;
     position: relative;
     top: 30px;
+    margin-right: 10px;
 }
 
 .map {
