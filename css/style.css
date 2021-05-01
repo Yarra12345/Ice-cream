@@ -116,8 +116,8 @@ a {
     height: 70px;
     z-index: 4;
     position: absolute;
-    bottom: 80px;
-    right: 520px;
+    top: 500px;
+    right: 600px;
     border: none;
     box-shadow: 0px 2px 5px #ac1000;
     padding: 15px 40px;
@@ -126,6 +126,7 @@ a {
 .red_oval_second {
     position: relative;
     left: 370px;
+    top: 35px;
     border-radius: 35px 35px;
     background-color: #ed603f;
     height: 44px;
@@ -153,7 +154,7 @@ a {
 
 .creams img:first-child {
     position: absolute;
-    left: 27%;
+    left: 29%;
     top: 58px;
     z-index: 1;
 }
@@ -196,6 +197,8 @@ a {
 
 .more {
     font-size: 35px;
+    top: 5px;
+    margin-top: 10px;
 }
 
 .Glais {
@@ -292,7 +295,15 @@ a {
 }
 
 .gl {
-    font-size: 13px;
+    font-size: 16px;
+    padding: 0 30px 0 7px;
+}
+
+.glais_words h3 {
+    font-size: 24px;
+    line-height: 23px;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .blog {
@@ -400,17 +411,16 @@ a {
 
 .pin {
     position: absolute;
-    left: 344px;
+    left: 415px;
     top: 2120px;
 }
 
 .bgg {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .connection {
     color: #000000;
-    font-size: 14px;
     position: absolute;
     right: 170px;
     top: 2044px;
@@ -421,7 +431,7 @@ a {
     width: 209px;
     height: 247px;
     border-radius: 9px;
-    padding: 33px 56px 21px 41px;
+    padding: 35px 56px 21px 41px;
 }
 
 .connection p {
@@ -429,14 +439,14 @@ a {
 }
 
 .red_oval_third {
-    position: absolute;
-    right: -25px;
-    bottom: -100px ;
     border-radius: 35px 35px;
     background-color: #ed603f;
     height: 45px;
     width: 254px;
     font-size: 18px;
+    position: absolute;
+    right: 29px;
+    top: 235px;
     border: none;
     box-shadow: 0px 2px 5px #ac1000;
     background: linear-gradient(#f26843 , #e74b36);
@@ -490,47 +500,43 @@ input[type ="text"] ::placeholder {
 }
 
 .window_one {
+    background: #f8f7f4;
+    border-radius: 3%;
     position: absolute;
-}
-
-.block {
-    position: relative;
-    left: 615px;
-    top: 35px;
+    padding: 23px 17px 23px 17px;
+    left: 783px;
+    top: 43px;
     z-index: 5;
+    max-width: 345px;
+    max-height: 85px;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.4)
 }
 
-input[type ="textt"] {
+input[type ="search"] {
     z-index: 5;
     font-size: 18px;
     line-height: 24px;
     padding: 8px;
-    width: 290px;
-    height: 31px;
-    position: absolute;
+    width: 306px;
+    height: 44px;
     border: 1px solid #d3d3d2;
     border-radius: 3px;
-    left: 650px;
-    bottom: 25px;
-}
-
-input[type ="textt"] ::placeholder {
-    color: #d3d3d2;
 }
 
 .window_two {
+    background: #f8f7f4;
+    padding: 20px;
+    border-radius: 3%;
     position: absolute;
-}
-
-.block_one {
-    position: relative;
-    left: 785px;
-    top: 35px;
+    top: 43px;
+    right: 270px;
     z-index: 5;
+    max-width: 240px;
+    max-height: 190px;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.4)
 }
 
 .red_oval_fifth {
-    position: relative;
     border-radius: 35px 35px;
     background-color: #ed603f;
     height: 45px;
@@ -548,47 +554,80 @@ input[type ="textt"] ::placeholder {
     color: #ffffff;
 }
 
-input[type ="texttt"] {
+input[type ="email"] {
     z-index: 5;
     font-size: 18px;
     line-height: 24px;
     padding: 8px;
     width: 224px;
     height: 33px;
-    position: absolute;
     border: 1px solid #d3d3d2;
     border-radius: 3px;
-    left: 821px;
-    bottom: 220px;
+    margin-bottom: 20px;
 }
 
-input[type ="texttt"] ::placeholder {
+input[type ="email"] ::placeholder {
     color: #c2c2c2;
 }
 
-input[type ="textttt"] {
+input[type ="password"] {
     z-index: 5;
     font-size: 18px;
     line-height: 24px;
     padding: 8px;
     width: 224px;
     height: 33px;
-    position: absolute;
     border: 1px solid #d3d3d2;
     border-radius: 3px;
-    left: 821px;
-    bottom: 155px;
+    margin-bottom: 20px;
 } 
 
 .fogot {
-    position: relative;
-    display: flex;
-    flex-direction: column;
     font-size: 13px;
     text-decoration: underline;
-    color: #323232;
     z-index: 5;
-    left: 950px; 
-    bottom: 100px;
-    line-height: 0%;
+    position: absolute;
+    width: 120px;
+    right: 20px;
+    bottom: 20px;
+}
+
+.fogot a {
+    color: #323232;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.window_three {
+    background: #f8f7f4;
+    border-radius: 3%;
+    position: absolute;
+    z-index: 5;
+    top: 50px;
+    left: 353px;
+    padding: 14px 17px 16px 20px;
+    max-width: 109px;
+    max-height: 172px;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.4)
+}
+
+.ice_types {
+    font-size: 14px;
+    z-index: 5;
+}
+
+.ice_types a {
+    color: #323232;
+}
+
+.News {
+    z-index: 5;
+    color: #323232;
+}
+
+.two_kg {
+    font-size: 18px;
 }
