@@ -411,8 +411,8 @@ a {
 
 .pin {
     position: absolute;
-    left: 415px;
-    top: 2120px;
+    left: 268px;
+    top: 175px;
 }
 
 .bgg {
@@ -422,16 +422,16 @@ a {
 .connection {
     color: #000000;
     position: absolute;
-    right: 170px;
-    top: 2044px;
+    right: 25px;
+    top: 100px;
     display: flex;
     flex-direction: column;
     line-height: 24px;
     background-color: white;
-    width: 209px;
-    height: 247px;
+    width: 225px;
+    height: 256px;
     border-radius: 9px;
-    padding: 35px 56px 21px 41px;
+    padding: 30px 53px 21px 25px;
 }
 
 .connection p {
@@ -442,22 +442,19 @@ a {
     border-radius: 35px 35px;
     background-color: #ed603f;
     height: 45px;
-    width: 254px;
+    width: 250px;
     font-size: 18px;
-    position: absolute;
-    right: 29px;
-    top: 235px;
     border: none;
     box-shadow: 0px 2px 5px #ac1000;
     background: linear-gradient(#f26843 , #e74b36);
 }
 
 .heart_svg {
-    position: absolute;
-    left: 590px;
-    top: 2463px;
+    position: relative;
     height: 20px;
     width: 14px;
+    right: 334px;
+    top: 15px;
 }
 
 input[type ="text"] {
@@ -608,6 +605,7 @@ input[type ="password"] {
     z-index: 5;
     top: 50px;
     left: 353px;
+    outline: 20px solid rgba(0, 0, 0, 0);
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.4)
 }
 
@@ -665,11 +663,14 @@ input[type ="password"] {
     background-color: #f8f7f4;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.4);
     z-index: 5;
-    padding: 26px 28px 98px 27px;
+    padding: 20px;
     max-width: 423px;
     max-height: 417px;
-    top: 300px;
+    top: 100px;
     border-radius: 5px;
+    min-height: 400px;
+    left: 360px;
+    top: 29px;
 }
 
 .shar {
@@ -691,7 +692,6 @@ input[type ="password"] {
 }
 
 .red_oval_sixth {
-    position: relative;
     border-radius: 35px 35px;
     background-color: #ed603f;
     height: 46px;
@@ -701,29 +701,47 @@ input[type ="password"] {
     box-shadow: 0px 2px 5px #ac1000;
     background: linear-gradient(#f26843 , #e74b36);
     z-index: 5;
-    left: 290px;
-    bottom: -75px;
+    margin: 0 0 0 280px;
+    
 }
 
 .window_four a {
     color: #ffffff;
 }
 
-.X {
-    position: relative;
-    top: -18px;
-    right: -19px;
-}
-
 .h_two {
-    color: #000000;
+    color: #323232;
     font-weight: 500;
+    margin: 0 0 25px;
 }
 
-.input[type="tel"] {
-    width: 267px;
-    height: 42px;
-    border: 1px solid #d3d3d2;
-    border-radius: 3px;
-    z-index: 5;
+.contacts {
+    position: relative;
+}
+
+section .norn {
+    position: relative;
+    top: initial;
+    left: initial;
+    width: 235px;
+    height: initial;
+    margin-bottom: 20px;
+}
+
+.contacts textarea {
+    padding: 8px;
+    border-radius: 3% 3%;
+    border: 1px solid;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.sxg {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    color: #000000;
+    left: 430px;
+    top: 6px;
 }
