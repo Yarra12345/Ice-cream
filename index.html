@@ -65,10 +65,10 @@
                     </svg>
                     <div class="ice_types">
                         <ul>
-                            <li class="current"><a href="" >Сливочное</a></li>
-                            <li class="current"><a href="">Щербеты</a></li>
-                            <li class="current"><a href="">Фруктовый лед</a></li>
-                            <li class="current"><a href="">Мелорин</a></li>
+                            <li><a href="" >Сливочное</a></li>
+                            <li><a href="">Щербеты</a></li>
+                            <li><a href="">Фруктовый лед</a></li>
+                            <li><a href="">Мелорин</a></li>
                         </ul>
                     </div>
                 </div>
@@ -85,9 +85,11 @@
         <section>
             <h1 class="thebiggest_text" id="the_biggest_text">Крем-брюле и пломбир с малиновым джемом</h1>
         </section>
-        <button class="shar" onclick="shar1()"></button>
-        <button class="shar" onclick="shar2()"></button>
-        <button class="shar" onclick="shar3()"></button>
+        <div class="switch">
+            <button class="shar" onclick="shar1()"></button>
+            <button class="shar" onclick="shar2()"></button>
+            <button class="shar" onclick="shar3()"></button>
+        </div>
         <section>
             <div class="m_ch">
                 <div class="malina">
@@ -101,36 +103,40 @@
                     <h3 class="more">Шоколодаки даром!</h3>
                     <p class="two_kg">При покупке 2 кг пломбира, добавим в ваш заказ в упаковку вкуснейший шоколадной присыпки совершенно бесплатно.</p>
                     <button class="red_oval_second">
-                        <a href="" class="want">Хочу шоколадку!</a>
+                        <a href="" class="want">Хочу шоколадки!</a>
                     </button>
                 </div>
             </div>
         </section>
-        <section>
+        <section class="p_l_i">
             <div class="price-list">
                 <div class="price-list__item">
                     <img src="./img/hit1.png" alt="hit" width="60" height="60" class="hit1"> 
                     <img src="./img/first icream.png" alt="Апельсиновое" width="267" height="267">
                     <p class="price">310 &#8381;/<span class="kg">кг</span></p>
                     <p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
+                    <a href="" class="fast_look">Быстрый просмотр</a>
                 </div>
                 <div class="price-list__item">
                     <img src="./img/hit1.png" alt="hit" width="60" height="60" class="hit1">
                     <img src="./img/second icream.png" alt="Кофейное" width="267" height="267">
                     <p class="price">380 &#8381;/<span class="kg">кг</span></p>
                     <p>Сливочно-кофейное с кусочками шоколада</p>
+                    <a href="" class="fast_look">Быстрый просмотр</a>
                 </div>
                 <div class="price-list__item">
                     <img src="./img/hit1.png" alt="hit" width="60" height="60" class="hit1">
                     <img src="./img/third icream.png" alt="Клубничное" width="267" height="267">
                     <p class="price">355 &#8381;/<span class="kg">кг</span></p>
                     <p>Сливочно-клубничное с присыпкой из белого шоколада</p>
+                    <a href="" class="fast_look">Быстрый просмотр</a>
                 </div>
                 <div class="price-list__item">
                     <img src="./img/hit1.png" alt="hit" width="60" height="60" class="hit1">
                     <img src="./img/fourth icream.png" alt="Крем-брюле" width="267" height="267"> 
                     <p class="price">415 &#8381;/<span class="kg">кг</span></p>
                     <p>Сливочное крем-брюле с карамельной подливкой</p>
+                    <a href="" class="fast_look">Быстрый просмотр</a>
                 </div>
             </div>
         </section>
@@ -165,7 +171,7 @@
             <section class="ten_ways">
                 <div class="blog">
                     <p>Новое в нашем блоге</p>
-                    <div class="fruit_words"><b><a href="">10 способов сервировки фруктовых щербетов к столу</a></b></div>
+                    <div class="fruit_words"><b><a href="#">10 способов сервировки фруктовых щербетов к столу</a></b></div>
                 </div>
             </section>
             <section class="mail">
@@ -196,7 +202,7 @@
                     <h2 class="h_two">Мы обязательно вам ответим!</h2>
                     <input type="text" class="norn" placeholder="Как вас зовут?">
                     <input type="email" class="norn" placeholder="Ваша почта для ответа?">
-                    <textarea name="" id="" cols="43" rows="6"  placeholder="Напишите что-нибудь..."></textarea>
+                    <textarea class="write_something" name="" id="" cols="43" rows="6"  placeholder="Напишите что-нибудь..."></textarea>
                     <button class="red_oval_sixth want"><a href="">Отправить</a></button>
                 </div>
         </section>
@@ -219,12 +225,12 @@
                 </div>
                 <div class="down">
                     <ul>
-                        <li><a href="#">Для поставщиков</a></li>
-                        <li><a href="#">О производстве</a></li>
+                        <li><a href="">Для поставщиков</a></li>
+                        <li><a href="">О производстве</a></li>
                     </ul>
                     <ul>
-                        <Li><a href="#">Наши документы</a></Li>
-                        <li><a href="#">Экологические стандарты</a></li>
+                        <Li><a href="">Наши документы</a></Li>
+                        <li><a href="">Экологические стандарты</a></li>
                     </ul>
                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart" class="heart_svg" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg>
                 </div>

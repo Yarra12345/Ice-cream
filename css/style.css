@@ -249,6 +249,7 @@ a {
 }
 
 .price-list {
+    height: 407px;
     margin: 14px;
     display: flex;
     flex-direction: row;
@@ -259,7 +260,6 @@ a {
     width: 267px;
     margin: 14px;
     position: relative;
-
 }
 
 .kg {
@@ -366,7 +366,7 @@ a {
 
 .mode {
     position: absolute;
-    right: 160px;
+    right: 167px;
     top: 50px;
     max-width: 170px;
 }
@@ -441,8 +441,8 @@ a {
 .red_oval_third {
     border-radius: 35px 35px;
     background-color: #ed603f;
-    height: 45px;
-    width: 250px;
+    min-height: 40px;
+    min-width: 260px;
     font-size: 18px;
     border: none;
     box-shadow: 0px 2px 5px #ac1000;
@@ -665,12 +665,12 @@ input[type ="password"] {
     z-index: 5;
     padding: 20px;
     max-width: 423px;
-    max-height: 417px;
+    max-height: 407px;
     top: 100px;
     border-radius: 5px;
-    min-height: 400px;
+    min-height: 390px;
     left: 360px;
-    top: 29px;
+    top: 25px;
 }
 
 .shar {
@@ -678,17 +678,7 @@ input[type ="password"] {
     color: #ffffff;
     width: 25px;
     height: 25px;
-    display: flex;
-    flex-direction: row;
-}
-
-.input[type ="textt"] {
-    min-width: 427px;
-    height: 156px;
-    border-radius: 3%;
-    z-index: 5;
-    font-size: 18px;
-    line-height: 24px;
+    border: 0px;
 }
 
 .red_oval_sixth {
@@ -735,6 +725,7 @@ section .norn {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 20px;
+    border-color: #d3d3d2;
 }
 
 .sxg {
@@ -744,4 +735,32 @@ section .norn {
     color: #000000;
     left: 430px;
     top: 6px;
+}
+
+.switch {
+    position: absolute;
+    top: 510px;
+    left: 170px;
+}
+
+.fast_look {
+    position: relative;
+    left: 35px;
+    top: 15px;
+    border-radius: 35px 35px;
+    background-color: #ed603f;
+    height: 48px;
+    width: 204px;
+    font-size: 18px;
+    border: none;
+    background: linear-gradient(#f26843 , #e74b36);
+    padding: 11px 13px 11px 13px;
+}
+
+.price-list__item a {
+    color: #fff;
+}
+
+.p_l_i {
+    min-height: 500px;
 }
